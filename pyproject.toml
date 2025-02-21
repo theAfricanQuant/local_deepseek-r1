@@ -1,0 +1,13 @@
+[project]
+name = "local-deepseek-r1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.19",
+    "langchain-community>=0.3.18",
+    "langchain-ollama>=0.2.3",
+    "streamlit>=1.42.2",
+]
